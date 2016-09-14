@@ -1,7 +1,7 @@
 /*
 FileName: main.js
 Author: Darshit Vora
-Project: Logical Puzzle Webaroo
+Project: Logical Puzzle
 Problem Statement:
 Chef is very fond of horses. He enjoys watching them race. As expected, he has a stable full of horses.
 He, along with his friends, goes to his stable during the weekends to watch a few of these horses race.
