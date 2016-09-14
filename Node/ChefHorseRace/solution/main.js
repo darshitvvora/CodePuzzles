@@ -79,7 +79,7 @@ function oFindMinimumDiffFromArr(strArray,n){
 		return -1;		
 	} 
 	let diff = 1000000001;	
-	for (let inIter=0; inIter<iNoOfElems; inIter++){
+	for (let inIter=0; inIter<iNoOfElems-1; inIter++){
 		const iFirstVal = parseInt(arrTemp[inIter],10);
 		const iSecondVal = parseInt(arrTemp[inIter+1],10);
 		const iActualDiff = iSecondVal - iFirstVal;
