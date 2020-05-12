@@ -14,7 +14,7 @@ class Elevator{
 		if(this.direction == 0 && this.currentFloor<value){
 			this.direction=1;
 			this.ascqueue.unshift(value);
-			return true;
+			return true;	
 		} else if(this.direction == 0 && this.currentFloor>value){
 			this.direction = -1;
 			this.descqueue.push(value);
@@ -32,7 +32,7 @@ class Elevator{
 				this.ascqueue.push(value);
 			}
 			return true;
-		} else if(this.direction = 1 && this.currentFloor>value){
+		} else if(this.direction = 1 && this.currentFloor>value){	
 			let inserted = false;
 			for(var i=0; i<this.descqueue.length; i++){
 				if(value>this.descqueue[i]){
